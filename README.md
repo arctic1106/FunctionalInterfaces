@@ -1,1 +1,1 @@
-# FunctionalInterfaces
+# Functional Interfaces
