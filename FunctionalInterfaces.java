@@ -10,7 +10,7 @@ public class FunctionalInterfaces {
 		thread.start();
 		thread.join();
 
-		// 2 - Anonymous inner class
+		// 2 - Anonymous class
 		Runnable r2 = new Runnable() {
 			@Override
 			public void run() {
