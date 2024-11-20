@@ -6,7 +6,7 @@ public class FunctionalInterfaces {
 
 		// 1 - Lambda expression
 		Runnable r1 = () -> System.out.println("Hello from runnable 1");
-		Thread thread = new Thread(r1);
+		var thread = new Thread(r1);
 		thread.start();
 		thread.join();
 
